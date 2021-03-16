@@ -1,0 +1,10 @@
+    ---
+description: sensutest
+builds:
+- platform: "linux"
+  arch: "amd64"
+  asset_filename: "sensusystemchecks.tar.gz"
+  sha_filename: "sensusystemchecks_sha512-checksums.txt"
+  filter:
+  -  "entity.system.os == 'linux'"
+  -  "entity.system.arch == 'amd64'"
