@@ -1,5 +1,5 @@
     ---
-description: sensutest
+description: "sensutest"
 builds:
 - platform: "linux"
   arch: "amd64"
