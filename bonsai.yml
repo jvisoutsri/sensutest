@@ -1,4 +1,4 @@
-    ---
+---
 description: "sensutest"
 builds:
 - platform: "linux"
