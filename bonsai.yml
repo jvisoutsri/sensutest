@@ -1,10 +1,10 @@
 ---
-description: "sensutest"
+description: "#{repo}"
 builds:
 - platform: "linux"
   arch: "amd64"
-  asset_filename: "sensusystemchecks.tar.gz"
-  sha_filename: "sensusystemchecks_sha512-checksums.txt"
+  asset_filename: "#{repo}_#{version}_linux_amd64.tar.gz"
+  sha_filename: "#{repo}_#{version}_sha512-checksums.txt"
   filter:
   -  "entity.system.os == 'linux'"
   -  "entity.system.arch == 'amd64'"
